@@ -9,7 +9,7 @@ font-family: "Inter", sans-serif;
 main{
     background-image: url(MAIN\ BG.png);
     background-size: cover;
-    /* height: 100vh; */
+    height: 100vh;
 }
 nav{
     display: flex;
@@ -21,7 +21,7 @@ nav{
 ul{
    display: flex;
    background-color: #8b6456;
-   border-radius: 5px;
+   border-radius: 8px;
 }
 li{
     margin: 5px 20px;
@@ -29,57 +29,67 @@ li{
 a{
     color: white;
 }
-button{
+.signup button{
     border: 1px solid #8b6456;
     background-color: #ffeaea;
     color: #8b6456;
-    padding: 10px 20px;
+    padding: 10px 18px;
     border-radius: 20px;
 }
 
 .hero-section{
     color: #523728;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding: 0 60px;
 }
 .hero-text{
     padding:0 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .hero-text h1{
     font-weight: 500;
-    /* padding: 0 200px 0; */
+    padding: 0 200px 0 0;
+    line-height: 42px;
 }
 
 .hero-text p{
+    line-height: 21px;
     font-size: 14px;
-    /* padding: 30px 230px 0; */
+    padding: 30px 230px 0 0;
 }
 
-button{
-    /* padding: 10px 25px; */
+.hero-text button{
+    padding: 10px 25px;
     background-color: #523728;
     border: 0;
+    width: 130px;
+    height: 35px;
     border-radius: 20px;
-    /* margin-top: 20px; */
+    margin-top: 20px;
+   
 }
 
 button a{
     color: white;
 }
 
-.btn2{
-    /* padding: 10px 25px; */
-    background-color: #d2b780;
+.btn2 button{
+    width: 131px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #d2b780;    
     color: white;
     border: 1px solid #523728;
-    border-radius: 20px;
+    border-radius: 20px;   
 }
 
 .btn2 a{
-    color: #523728;
+    color: white;
 }
 
 .hero-image img{
@@ -93,6 +103,7 @@ button a{
     justify-content: space-evenly;
     padding: 0 100px 50px;
 }
+
 .aboutusimage img{
 width: 350px;
 height: 350px;
@@ -227,4 +238,85 @@ padding: 20px 0;
     color: #734B33;
     font-weight: 500;
     text-decoration: none;
+}
+.footer{
+    background-color: #6A4028F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+.footer-contact{
+    color: #fff8e1;
+    padding: 0 300px 0 0;
+}
+.footer-contact h1{
+    line-height: 42px;
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-contact p{
+line-height: 21px;
+font-size: 14px;
+}
+.footer-image img{
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+.footer-social{
+padding-bottom: 10px;
+}
+.footer-social a{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.footer-form{
+    display: block;
+    unicode-bidi: isolate;
+}
+input{
+    padding: 12px 40px;
+    width: 413px;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: 0;
+}
+
+textarea{
+border-radius: 20px;
+padding: 12px 40px;
+width: 413px;
+height: 140px;
+margin-top: 30px;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    color: black;
+    background-color: #523728;
+    border: 0;
+    border-radius: 30px;
+    margin: 10px 0 20px;
+}
+.footer-form button{
+    color: black;
+    background-color: #FF9900;
+}
+
+.btn-link{
+    color: #fff8e1;
+}
+.btn-link img{
+    width: 20px;
+}
+.btn-link a{
+    color: #fff8e1;
+    display: flex;
+    align-items: center;
 }
